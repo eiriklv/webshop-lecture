@@ -1,0 +1,47 @@
+const phones = [
+  {
+    id: '1',
+    name: 'iPhone 12',
+    price: 9999,
+    variant: [
+      {
+        capacity: 128,
+        colors: ['red', 'black']
+      },
+      {
+        capacity: 256,
+        color: ['green', 'blue']
+      }
+    ]
+  },
+  {
+    id: '2',
+    name: 'Samsung S12',
+    variant: [
+      {
+        capacity: 128,
+        colors: ['red', 'black']
+      },
+      {
+        capacity: 256,
+        color: ['green', 'blue']
+      },
+      {
+        capacity: 512,
+        color: ['green']
+      }
+    ]
+  },
+  {
+    id: '3',
+    name: 'Oneplus P9',
+    variant: [
+      {
+        capacity: 128,
+        colors: ['red', 'black']
+      }
+    ]
+  },
+];
+
+export default phones;
